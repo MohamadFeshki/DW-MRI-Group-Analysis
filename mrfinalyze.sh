@@ -8,23 +8,29 @@ epsub=20
 nlsub=22
 
 #####   directory initialization #####
+# FILL THE FOLLOWING WITH THE ADDRESS POINTING TO YOUR DATA
 for ((i=0;i< bisub ;i++));
 	do
-	bi[${i}]=/home/feshki/mrtrix3/mohamad/round2/subjects/bilateral/bi${i}
+	bi[${i}]=/path/to/subjects/bilateral/bi${i}
 done
 for ((i=0;i< epsub ;i++));
 	do
-	ep[${i}]=/home/feshki/mrtrix3/mohamad/round2/subjects/epilepsy/ep${i}
+	ep[${i}]=/path/to/subjects/epilepsy/ep${i}
 done
 for ((i=0;i< nlsub ;i++));
 	do
-	nl[${i}]=/home/feshki/mrtrix3/mohamad/round2/subjects/normal/nl${i}
+	nl[${i}]=/path/to/subjects/normal/nl${i}
 done
-total=/home/feshki/mrtrix3/mohamad/round2
-temp=/home/feshki/mrtrix3/mohamad/round2/template
-temptl=/home/feshki/mrtrix3/mohamad/round2/template_tl
-tempwm=/home/feshki/mrtrix3/mohamad/round2/template_wm
-atlas=/home/feshki/mrtrix3/mohamad/paper1/atlas
+
+total=/path/to/project/folder
+
+temp=/path/to/template
+
+temptl=/path/to/template_tl
+
+tempwm=/path/to/template_wm
+
+atlas=/path/to/atlas
 
 ##### variables initialization #####
 peak_threshold=.33
