@@ -7,7 +7,7 @@ bisub=10
 epsub=20
 nlsub=22
 
-#####   path definition: #####
+#####   directory initialization #####
 for ((i=0;i< bisub ;i++));
 	do
 	bi[${i}]=/home/feshki/mrtrix3/mohamad/round2/subjects/bilateral/bi${i}
