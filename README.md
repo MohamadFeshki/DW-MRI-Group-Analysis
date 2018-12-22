@@ -7,6 +7,6 @@ This scripts use [Mrtrix3](https://github.com/MRtrix3/mrtrix3), [FSl](https://fs
 
 This project includes three groups (nl, ep, bi) which the "nl" group is used to generate the template space!
 # Usage
-To perform analysis at first you need to redefine the directories. For further information about directory managing please check the sample-project-folder format.
+To perform analysis at first you need to redefine the directories. For further information about directory managing please check the directory initialization part of the code at first.
 
 For running each step, it just needs to import the step number after considering your directory using the commands included in the file.
